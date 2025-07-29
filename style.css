@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(173, 216, 230);
+}
+h1 {
+    color: rgb(159, 195, 207);
+    font-size: 50px;
+}
+p{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+h2 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+li {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* Style the header */
+header {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px;
+}
+footer {
+    color: white;
+    padding: 10px;
+    background-color: white;
+}
+h3 {
+    color: black;
+    font-size: 23px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(159, 195, 207);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: lightblue;
+    color: white;
+}
+div {
+    color: rgb(173,216,230);
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px){
+    .column{
+        width: 100%;
+    }
+}
