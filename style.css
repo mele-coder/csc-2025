@@ -1,19 +1,25 @@
 * {
     box-sizing: border-box;
 }
-
 body {
-    background-color: rgb(173, 216, 230);
+background-color: rgb(173,216,230)
+}
+#banner {
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    font-family: 'Times New Roman' Times, serif;
 }
 h1 {
-    color: rgb(159, 195, 207);
-    font-size: 50px;
-    background-image: url('Screenshot 2025-06-05 104232.png');
+margin: 0px;
+text-font: 'Times New Roman' Times, serif;
+text-line: 200px;
 }
 p{
-    color:black;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
+    text-align: center;
 }
 h2 {
     color:black;
@@ -29,39 +35,35 @@ header {
     padding: 0px;
 }
 h3 {
-    color: black;
-    font-size: 50px;
+    color: white;
+    font-size: 70px;
     text-align: center;
     text-decoration-line: underline;
 }
 .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(173,216,230);
+    text-align: center;
 }
 .topnav a {
     float: left;
     display: block;
-    color: rgb(159, 195, 207);
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 25px;
 }
 .topnav a:hover {
     background-color: lightblue;
-    color: white;
+    color: #a3c8d4;
     text-align: center;
 }
 div {
-    color: rgb(173,216,230);
+    color: white;
     text-align: center;
 }
-p.dotted {
-border-style: dotted;
-background-color: white;
-border-color: rgb(173, 216, 230);
-}
-h3.dotted {
-border-styled: dotted;
-background-color: white;
-border-color:rgb(173, 216, 230);
+img  {
+margin-left: auto;
+margin-right: auto;
 }
