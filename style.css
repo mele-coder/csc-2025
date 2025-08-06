@@ -21,11 +21,6 @@ p{
     font-size: 23px;
     text-align: center;
 }
-h2 {
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-}
 /* Style the header */
 header {
     color: white;
@@ -40,11 +35,6 @@ h3 {
     text-align: center;
     text-decoration-line: underline;
 }
-.topnav {
-    overflow: hidden;
-    background-color: rgb(173,216,230);
-    text-align: center;
-}
 .topnav a {
     float: left;
     display: block;
@@ -55,15 +45,31 @@ h3 {
     font-size: 25px;
 }
 .topnav a:hover {
-    background-color: lightblue;
-    color: #a3c8d4;
+    background-color: rgb(173,216,230);
+    color: white;
     text-align: center;
 }
 div {
-    color: white;
+    color: rgb(173,216,230);
     text-align: center;
+    font-size: 150px;
+    text-decoration: underline;
 }
 img  {
 margin-left: auto;
 margin-right: auto;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #AFD5F0;
+}
+
+.flex-container > div {
+  background-color: #AFD5F0;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 30px;
 }
