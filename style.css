@@ -14,12 +14,15 @@ h1 {
 margin: 0px;
 text-font: 'Times New Roman' Times, serif;
 text-line: 200px;
+
 }
 p{
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 23px;
+    font-size: 30px;
     text-align: center;
+    background-color: rgb(173,216,230);
+    text-decoration: none;
 }
 /* Style the header */
 header {
@@ -31,9 +34,10 @@ header {
 }
 h3 {
     color: white;
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
     text-decoration-line: underline;
+    background-color: rgb(173,216,230);
 }
 .topnav a {
     float: left;
