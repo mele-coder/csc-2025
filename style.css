@@ -18,7 +18,6 @@ h1 {
 margin: 0px;
 text-font: 'Times New Roman' Times, serif;
 text-line: 200px;
-
 }
 /* for my paragraphs different size and font colour keeping only codes using p the same*/
 p{
@@ -45,7 +44,7 @@ h3 {
     text-decoration-line: underline;
     background-color: rgb(173,216,230);
 }
-/* */
+/*used for navigation bar so the audience can see */
 .topnav a {
     float: left;
     display: block;
@@ -55,27 +54,31 @@ h3 {
     text-decoration: none;
     font-size: 25px;
 }
+/*the user can see what they are clicking */
 .topnav a:hover {
     background-color: rgb(173,216,230);
     color: white;
     text-align: center;
 }
+/* organise and tidy my codes so it appears more clean and simple*/
 div {
     color: rgb(173,216,230);
     text-align: center;
     font-size: 150px;
     text-decoration: underline;
 }
+/* used for the image and to ensure the image is able to fit on the screen and the user can see it*/
 img  {
 margin-left: auto;
 margin-right: auto;
 }
+/*keep the code together and used for a good box layout*/
 .flex-container {
   display: flex;
   justify-content: center;
   background-color: #AFD5F0;
 }
-
+/* keep the navigation bar in center of the website*/
 .flex-container > div {
   background-color: #AFD5F0;
   width: 200px;
