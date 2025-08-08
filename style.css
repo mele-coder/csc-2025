@@ -56,7 +56,7 @@ h3 {
 }
 /*the user can see what they are clicking */
 .topnav a:hover {
-    background-color: #48AAAD;
+    background-color: rgb(173,216,230);
     color: white;
     text-align: center;
 }
@@ -88,4 +88,5 @@ margin-right: auto;
   font-size: 30px;
 
 }
+
 
