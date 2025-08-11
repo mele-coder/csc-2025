@@ -1,7 +1,3 @@
-/* used for board of the website */
-* {
-    box-sizing: border-box;
-}
 /*Used to code  for the body of the website adding colours*/
 body {
 background-color: rgb(173,216,230)
@@ -11,18 +7,18 @@ background-color: rgb(173,216,230)
     background-color: white;
     height: 200px;
     text-align: center;
-    font-family: 'Times New Roman' Times, serif;
+    font-family: 'Times New Roman';
 }
 /* for my heading 1 getting to change the size from the rest of the other text only works for codes using h1 */
 h1 {
 margin: 0px;
-text-font: 'Times New Roman' Times, serif;
-text-line: 200px;
+font-family: 'Times New Roman';
+font-size: 150px;
 }
 /* for my paragraphs different size and font colour keeping only codes using p the same*/
 p{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman' ;
     font-size: 30px;
     text-align: center;
     background-color: rgb(173,216,230);
@@ -44,7 +40,7 @@ h3 {
     text-decoration-line: underline;
     background-color: rgb(173,216,230);
 }
-/*used for navigation bar so the audience can see */
+/* */
 .topnav a {
     float: left;
     display: block;
@@ -54,31 +50,27 @@ h3 {
     text-decoration: none;
     font-size: 25px;
 }
-/*the user can see what they are clicking */
 .topnav a:hover {
     background-color: rgb(173,216,230);
     color: white;
     text-align: center;
 }
-/* organise and tidy my codes so it appears more clean and simple*/
 div {
     color: rgb(173,216,230);
     text-align: center;
     font-size: 150px;
     text-decoration: underline;
 }
-/* used for the image and to ensure the image is able to fit on the screen and the user can see it*/
 img  {
 margin-left: auto;
 margin-right: auto;
 }
-/*keep the code together and used for a good box layout*/
 .flex-container {
   display: flex;
   justify-content: center;
   background-color: #AFD5F0;
 }
-/* keep the navigation bar in center of the website*/
+
 .flex-container > div {
   background-color: #AFD5F0;
   width: 200px;
@@ -86,7 +78,4 @@ margin-right: auto;
   text-align: center;
   line-height: 10px;
   font-size: 30px;
-
 }
-
-
